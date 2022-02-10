@@ -1,0 +1,85 @@
+/*zerar a margim */
+body{
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    }
+
+  html{
+      scroll-behavior: smooth;
+  }  
+
+/*tag instilização para id definido*/
+#topMenu{
+    display: flex;
+    background-color:#061636 ;
+    margin: 0;
+   }    
+
+#topMenu li{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    }   
+
+    /*primeiro nome da lista fica esquerda demais á direita*/
+    #topMenu li:first-child{
+        margin-right: auto;
+    }
+  
+    /*qdo voce coloca (ponto e nome) está se referindo uma classe*/
+    /*definindo altura fixa pra classe*/
+.section1{
+  display: flex;
+  height: 33vh;
+  background-color: #656773; 
+  }   
+  
+  .section2{
+    display: flex;
+    height: 33vh;
+    background-color:white; 
+    } 
+
+    .section3{
+        display: flex;
+        height: 33vh;
+        background-color:rgb(216, 199, 199); 
+        }     
+
+  /*deixar itens centralizados*/
+ .centralize{
+     margin: auto;
+     text-align: center;
+ } 
+
+ .imagemProjeto{
+     width: 25vw;
+     height: 25vh;
+     padding-left: 15px;    
+ }
+
+ h1{
+    color: aliceblue;
+ }
+ button{
+     font-size: 15px;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: 3s;
+ }
+
+ footer{
+     background-color: black;
+     padding: 30px;
+     color: white;
+ }
+
+ .botaoVermelho{
+     background-color:#c64e63;
+     border-radius: 5px;
+     color: white;
+     padding: 15px;
+     font-family: 'Fjalla One', sans-serif;
+ }
